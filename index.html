@@ -31,15 +31,15 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script>
-    function aud_play_pause() {
-      var myAudio = document.getElementById("myAudio");
-      if (myAudio.paused) {
-        myAudio.play();
-      } else {
-        myAudio.pause();
+    window.addEventListener('click', () => {
+      const myAudio = document.getElementById("myAudio");
+      if (myAudio) {
+        myAudio.muted = false; // Unmute the audio
+        myAudio.play().catch(error => console.error("Audio play failed:", error));
       }
-    }
+    });
   </script>
+  
   
   <audio id="myAudio" autoplay loop>
     <source src="https://jch030.github.io/Wedding/music/brigerton.mp3" type="audio/mpeg">
