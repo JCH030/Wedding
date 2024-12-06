@@ -31,7 +31,7 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script>
-    window.addEventListener('click', () => {
+    window.addEventListener('load', () => {
       const myAudio = document.getElementById("myAudio");
       if (myAudio) {
         myAudio.muted = false; // Unmute the audio
@@ -39,9 +39,8 @@
       }
     });
   </script>
-  
-  
-  <audio id="myAudio" autoplay loop>
+
+  <audio id="myAudio" autoplay loop muted>
     <source src="https://jch030.github.io/Wedding/music/brigerton.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
