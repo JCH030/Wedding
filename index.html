@@ -31,22 +31,11 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script>
-    // Wait until the DOM is fully loaded
-    document.addEventListener('DOMContentLoaded', function() {
-      var myAudio = document.getElementById("myAudio");
-
-      // Ensure the audio is playing once the page loads
+    window.addEventListener('load', () => {
+      const myAudio = document.getElementById("myAudio");
       if (myAudio) {
-        myAudio.play().then(() => {
-          console.log("Audio is playing.");
-        }).catch((error) => {
-          console.error("Audio playback failed:", error);
-        });
-
-        // Unmute the audio after a short delay to comply with autoplay policy
-        setTimeout(function() {
-          myAudio.muted = false; // Unmute the audio
-        }, 100); // Wait 100ms before unmuting
+        myAudio.muted = false; // Unmute the audio
+        myAudio.play().catch(error => console.error("Audio play failed:", error));
       }
     });
   </script>
