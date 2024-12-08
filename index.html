@@ -31,12 +31,21 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script>
-    window.addEventListener('load', () => {
+    document.addEventListener('DOMContentLoaded', () => {
       const myAudio = document.getElementById("myAudio");
-      if (myAudio) {
+  
+      const enableAudio = () => {
         myAudio.muted = false; // Unmute the audio
-        myAudio.play().catch(error => console.error("Audio play failed:", error));
-      }
+        myAudio.play()
+          .then(() => console.log("Audio is playing"))
+          .catch(error => console.error("Audio play failed:", error));
+        document.removeEventListener('click', enableAudio);
+        document.removeEventListener('scroll', enableAudio);
+      };
+  
+      // Add listeners for user interaction
+      document.addEventListener('click', enableAudio);
+      document.addEventListener('scroll', enableAudio);
     });
   </script>
   
