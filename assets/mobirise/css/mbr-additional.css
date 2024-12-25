@@ -102,7 +102,7 @@ body {
   background-color: #365e57 !important;
 }
 .bg-success {
-  background-color: #40b0bf !important;
+  background-color: #365e57 !important;
 }
 .bg-info {
   background-color: #47b5ed !important;
@@ -181,8 +181,8 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #40b0bf !important;
-  border-color: #40b0bf !important;
+  background-color: #365e57 !important;
+  border-color: #365e57 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -191,15 +191,15 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: #ffffff !important;
-  background-color: #2a747e !important;
-  border-color: #2a747e !important;
+  background-color: #162724 !important;
+  border-color: #162724 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #2a747e !important;
-  border-color: #2a747e !important;
+  background-color: #162724 !important;
+  border-color: #162724 !important;
 }
 .btn-warning,
 .btn-warning:active {
@@ -355,23 +355,23 @@ body {
 .btn-success-outline,
 .btn-success-outline:active {
   background-color: transparent !important;
-  border-color: #40b0bf;
-  color: #40b0bf;
+  border-color: #365e57;
+  color: #365e57;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
-  color: #2a747e !important;
+  color: #162724 !important;
   background-color: transparent!important;
-  border-color: #2a747e !important;
+  border-color: #162724 !important;
   box-shadow: none!important;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #40b0bf !important;
-  border-color: #40b0bf !important;
+  background-color: #365e57 !important;
+  border-color: #365e57 !important;
 }
 .btn-warning-outline,
 .btn-warning-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #ff6666 !important;
 }
 .text-success {
-  color: #40b0bf !important;
+  color: #365e57 !important;
 }
 .text-info {
   color: #47b5ed !important;
@@ -494,7 +494,7 @@ a.text-secondary.active {
 a.text-success:hover,
 a.text-success:focus,
 a.text-success.active {
-  color: #266a73 !important;
+  color: #111d1b !important;
 }
 a.text-info:hover,
 a.text-info:focus,
@@ -570,7 +570,7 @@ a:hover {
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #a0d8df;
+  color: #6aa99e;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -1025,7 +1025,7 @@ a {
   }
 }
 .cid-uvZHhfk7uq {
-  background-image: url("../../../assets/images/img-1706-2000x1333.jpg");
+  background-image: url("../../../assets/images/tng07241-2000x1333.jpeg");
 }
 .cid-uw4uLLYjss {
   padding-top: 4rem;
@@ -1062,6 +1062,9 @@ a {
 .cid-uw4uLLYjss .card-box {
   color: #365e57;
 }
+.cid-uw4uLLYjss H3 {
+  color: #365e57;
+}
 .cid-uwKEZHXok5 {
   padding-top: 0rem;
   padding-bottom: 1rem;
@@ -1094,7 +1097,7 @@ a {
   justify-content: center;
 }
 .cid-uwO48VpfCh {
-  padding-top: 0rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -1117,11 +1120,17 @@ a {
   padding: 1rem 0;
 }
 .cid-uwO48VpfCh .panel-title-edit {
-  color: #000000;
+  color: #365e57;
 }
 .cid-uwO48VpfCh .card .card-header {
   background-color: transparent;
   margin-bottom: 0;
+}
+.cid-uwO48VpfCh H3 {
+  color: #365e57;
+}
+.cid-uwO48VpfCh .panel-text {
+  color: #365e57;
 }
 .cid-uw5spQlYtE .navbar-dropdown {
   position: relative !important;
@@ -2953,7 +2962,7 @@ a {
 .cid-ux4abxn2pw {
   padding-top: 1rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #ccdcc1;
 }
 @media (max-width: 991px) {
   .cid-ux4abxn2pw .image-wrapper {
@@ -2969,7 +2978,7 @@ a {
 .cid-ux4aIMmiB3 {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #ccdcc1;
 }
 @media (max-width: 991px) {
   .cid-ux4aIMmiB3 .image-wrapper {
@@ -2985,7 +2994,7 @@ a {
 .cid-ux4aWj2lCP {
   padding-top: 0rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #ccdcc1;
 }
 @media (max-width: 991px) {
   .cid-ux4aWj2lCP .image-wrapper {
