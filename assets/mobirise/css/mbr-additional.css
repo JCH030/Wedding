@@ -2593,7 +2593,9 @@ a {
   }
 }
 .cid-uxXbUzwfFp {
-  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/ron04564-2000x1333.jpg");
 }
 @media (max-width: 991px) {
   .cid-uxXbUzwfFp .image-wrapper {
@@ -2949,6 +2951,8 @@ a {
   }
 }
 .cid-ux4abxn2pw {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -2963,6 +2967,8 @@ a {
   width: 100%;
 }
 .cid-ux4aIMmiB3 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -2977,6 +2983,8 @@ a {
   width: 100%;
 }
 .cid-ux4aWj2lCP {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
