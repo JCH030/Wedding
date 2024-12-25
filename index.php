@@ -36,7 +36,31 @@
   
 </head>
 <body>
-  
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const myAudio = document.getElementById("myAudio");
+
+        const enableAudio = () => {
+            myAudio.muted = false; // Unmute the audio
+            myAudio.play()
+                .then(() => console.log("Audio is playing"))
+                .catch(error => console.error("Audio play failed:", error));
+            document.removeEventListener("click", enableAudio);
+            document.removeEventListener("scroll", enableAudio);
+        };
+
+        // Add listeners for user interaction
+        document.addEventListener("click", enableAudio);
+        document.addEventListener("scroll", enableAudio);
+    });
+</script>
+
+<audio id="myAudio" autoplay loop muted>
+    <source src="./music/brigerton.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
   <section class="menu menu3 cid-uw4kdDFtHN" once="menu" id="menu3-2">
     
     <nav class="navbar navbar-dropdown collapsed">
@@ -54,7 +78,7 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.php">Home</a></li>
+                <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html">Home</a></li>
                     
                     <li class="nav-item"><a class="nav-link link text-white display-4" href="https://forms.gle/gow4pQsovUGCR5qh6">RSVP</a>
                     </li><li class="nav-item"><a class="nav-link link text-white display-4" href="Attire.html">Attire Guide</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="einvitation.html">E-Invitation</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="venue.html">Venue</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Save the Date.html">Save the Date</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="giftnote.html">Gift Note</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="prenup.html">Prenup Gallery</a></li></ul>
